@@ -5,7 +5,7 @@ from decouple import config
 
 # Set up the API request parameters
 token = config('BOT_TOKEN')
-chat_id = config('CHAT_ID_BIJOY')
+chat_id = config('CHAT_ID_SREEJITH')
 message = 'Blood needed. Are  you willing to donate'
 button1 = {'text': 'Yes I am willing to donate'}
 button2 = {'text': 'No I am not available'}
